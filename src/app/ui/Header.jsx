@@ -3,8 +3,26 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
+import { useState, useEffect } from "react";
 
 export default function Header() {
+    const [widgetContent, setWidgetContent] = useState("");
+
+    useEffect(() => {
+        const fetchData = async () => {
+            try {
+                const response = await fetch("https://classic.warcraftlogs.com/embed/guild-progress-tile/1020?difficulty=4&guild=712060");
+                const data = await response.text();
+                setWidgetContent(data);
+            } catch (error) {
+                console.error("Error fetching widget content:", error);
+            }
+        };
+
+        fetchData();
+    }, []);
+    console.log(widgetContent);
+
     return (
         <div className="flex-col flex items-center">
             <Link
@@ -46,12 +64,15 @@ export default function Header() {
                         />
                     </Link>
                     <div className="h-[650px] w-[450px]">
-                        <Script
-                            src="https://classic.warcraftlogs.com/embed/guild-progress-tile/1020?difficulty=4&guild=712060"
-                            strategy="lazyOnload"
-                            onLoad={() => console.log(`script loaded correctly, window.FB has been populated`)}
-                        ></Script>
-                        <h2>test</h2>
+                        <Link
+                            width={650}
+                            height={450}
+                            href="https://classic.warcraftlogs.com/embed/guild-progress-tile/1020?difficulty=4&guild=712060"
+                        >
+                            {" "}
+                            <h2>test</h2>
+                        </Link>
+                        <div dangerouslySetInnerHTML={{ __html: widgetContent }} />
                     </div>
                 </div>
             </div>
