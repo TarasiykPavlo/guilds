@@ -44,12 +44,12 @@ export default function Header() {
                             height={100}
                         />
                     </Link>
-                    {/* <iframe
+                    <iframe
                         title="Guild Progress Widget"
                         src="https://classic.warcraftlogs.com/embed/guild-progress-tile/1020?difficulty=4&guild=712060"
                         width={850}
                         height={450}
-                    ></iframe> */}
+                    ></iframe>
                 </div>
             </div>
         </div>
