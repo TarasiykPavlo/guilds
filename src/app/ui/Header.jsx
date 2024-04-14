@@ -1,7 +1,8 @@
-import { Checkbox } from "antd";
-import { url } from "inspector";
+"use client";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Script from "next/script";
 
 export default function Header() {
     return (
@@ -44,12 +45,14 @@ export default function Header() {
                             height={100}
                         />
                     </Link>
-                    <iframe
-                        title="Guild Progress Widget"
-                        src="https://classic.warcraftlogs.com/embed/guild-progress-tile/1020?difficulty=4&guild=712060"
-                        width={850}
-                        height={450}
-                    ></iframe>
+                    <div className="h-[650px] w-[450px]">
+                        <Script
+                            src="https://classic.warcraftlogs.com/embed/guild-progress-tile/1020?difficulty=4&guild=712060"
+                            strategy="lazyOnload"
+                            onLoad={() => console.log(`script loaded correctly, window.FB has been populated`)}
+                        ></Script>
+                        <h2>test</h2>
+                    </div>
                 </div>
             </div>
         </div>
