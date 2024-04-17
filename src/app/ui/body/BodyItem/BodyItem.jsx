@@ -1,5 +1,5 @@
 import { Collapse } from "antd";
-
+import GuildDescription from "@/app/ui/description/GuildDescription";
 const text = `
   A dog is a type of domesticated animal.
   Known for its loyalty and faithfulness,
@@ -15,7 +15,7 @@ const items = [
     {
         key: "1",
         label: "This is panel header 1",
-        children: <p>{text}</p>,
+        children: <GuildDescription></GuildDescription>,
     },
     {
         key: "2",
