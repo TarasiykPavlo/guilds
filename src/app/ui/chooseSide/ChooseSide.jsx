@@ -22,8 +22,8 @@ export default function ChooseSide(params) {
     }
 
     return (
-        <div className="h-fit  w-full p-2 rounded-lg  flex  justify-center ">
-            <div className="flex w-full justify-center 2xl:w-[80rem] space-x-10 bg-slate-400 rounded-lg p-5">
+        <div className="  w-full  rounded-lg  flex  justify-center ">
+            <div className="flex w-full justify-center  2xl:w-[80rem] space-x-10  rounded-lg p-5">
                 <Link
                     href={`${path}/Horde`}
                     className="hover:bg-slate-500 rounded-full"

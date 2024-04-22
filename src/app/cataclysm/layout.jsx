@@ -2,11 +2,9 @@ import ChooseSide from "@/app/ui/chooseSide/ChooseSide";
 
 export default function Layout({ children }) {
     return (
-        <>
-            <div>
-                <ChooseSide></ChooseSide>
-                {children}
-            </div>
-        </>
+        <section>
+            <ChooseSide></ChooseSide>
+            {children}
+        </section>
     );
 }
