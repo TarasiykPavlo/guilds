@@ -30,7 +30,7 @@ const items = [
 ];
 export default function BodyItem({ side }) {
     return (
-        <div className="2xl:w-[80rem] w-full bg-slate-400 h-fit p-1 flex flex-col rounded-lg">
+        <div className="2xl:w-[80rem] w-full bg-slate-400 h-fit  flex flex-col rounded-lg">
             <div className="w-3/5 h-fit flex flex-row justify-center">
                 <h2 className="text-fuchsia-950 p-5 text-xl">{side}</h2>
             </div>

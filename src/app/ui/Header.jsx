@@ -17,32 +17,43 @@ export default function Header() {
 
                 <h1>Українські гільдії World of Warcraft</h1>
             </Link>
-
-            <div className="h-fit  w-full p-1 rounded-lg  flex  justify-center ">
-                <div className="flex w-full justify-center 2xl:w-[80rem] space-x-10 bg-slate-400 rounded-lg p-5">
-                    <Link
-                        href="/Horde"
-                        className="hover:bg-slate-500 rounded-full"
-                    >
-                        <Image
-                            src="/horde.svg"
-                            alt="Horde"
-                            width={100}
-                            height={100}
-                        />
-                    </Link>
-                    <Link
-                        href="/Alliance"
-                        className="hover:bg-slate-500 rounded-full"
-                    >
-                        <Image
-                            src="/alliance.svg"
-                            alt="Alliance"
-                            width={100}
-                            height={100}
-                        />
-                    </Link>
-                </div>
+            <div className="flex gap-3 px-2">
+                <Link href={"/retail"}>
+                    <Image
+                        src={"/war-within.jpg"}
+                        alt="retail"
+                        className="rounded-3xl"
+                        width={250}
+                        height={250}
+                    />
+                </Link>
+                <Link href={"/season"}>
+                    <Image
+                        src={"/season.jpg"}
+                        alt="season"
+                        width={250}
+                        height={80}
+                        className="rounded-3xl"
+                    />
+                </Link>
+                <Link href={"/cataclysm"}>
+                    <Image
+                        src={"/wow-classic-cataclysm.webp"}
+                        alt="cataclysm"
+                        width={250}
+                        height={80}
+                        className="rounded-3xl"
+                    />
+                </Link>
+                <Link href={"/era"}>
+                    <Image
+                        src={"/classic.webp"}
+                        alt="era"
+                        width={213}
+                        height={80}
+                        className="rounded-3xl"
+                    />
+                </Link>
             </div>
         </div>
     );

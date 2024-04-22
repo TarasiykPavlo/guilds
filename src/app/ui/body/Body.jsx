@@ -1,7 +1,4 @@
-import Image from "next/image";
 import BodyItem from "./BodyItem/BodyItem";
-import { Checkbox } from "antd";
-import Link from "next/link";
 
 export default function Body({ side }) {
     return (
