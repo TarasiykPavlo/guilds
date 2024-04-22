@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ua">
-            <body className="bg-gradient-to-r from-amber-900 to-yellow-950 flex-col flex  ">
+            <body className="bg-gradient-to-b min-h-[100vh] from-blue-600 to-amber-300 flex-col flex  ">
                 <Header />
 
                 {children}
