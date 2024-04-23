@@ -137,27 +137,62 @@ const cataclysm = {
 };
 const season = {
     alliance: [
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
+        {
+            guildName: "Forced Fun",
+            guildDescription: `гільдія закриває 8 рейдів за кд`,
+            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/living-flame/forced%20fun`,
+            guildLinkDiscord: "https://discord.gg/473zmypdbN",
+            guildServer: " Living Flame",
+        },
+        {
+            guildName: "Sich ",
+            guildDescription: `(ГМ @Nidariko)`,
+            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/living-flame/sich`,
+            guildLinkDiscord: "https://discord.com/invite/r4CV3NkpE7",
+            guildServer: " Living Flame",
+        },
+        {
+            guildName: " Eternal Ukraine",
+            guildDescription: `(звертайтесь до @bumlaska )`,
+            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/living-flame/eternal%20ukraine`,
+            guildLinkDiscord: "https://discord.gg/zajnUhGsbJ",
+            guildServer: " Living Flame",
+        },
+        {
+            guildName: "El Cringe",
+            guildDescription: ` (звертайтесь до @Krava )`,
+            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/living-flame/el%20cringe`,
+            guildLinkDiscord: "https://discord.gg/ECVeAtECnU",
+            guildServer: " Living Flame",
+        },
+        {
+            guildName: "Armed forces of Ukraine",
+            guildDescription: `Armed forces of Ukraine`,
+            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/living-flame/armed%20forces%20of%20ukraine`,
+            guildLinkDiscord: "https://discord.gg/Zz8GyATuRW",
+            guildServer: " Living Flame",
+        },
+        {
+            guildName: "Puzata Hata",
+            guildDescription: `Puzata Hata`,
+            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/crusader-strike/puzata%20hata`,
+            guildLinkDiscord: "https://discord.gg/47SVMPkF",
+            guildServer: " Crusader Strike",
+        },
+        {
+            guildName: "KRAKEN",
+            guildDescription: `KRAKEN`,
+            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/chaos-bolt/kraken`,
+            guildLinkDiscord: "https://discord.gg/WzXZPqTf",
+            guildServer: "Chaos Bolt",
+        },
+        {
+            guildName: " We love cookies",
+            guildDescription: ` We love cookies`,
+            guildLinkWlogs: ` https://discord.gg/JWVNntfN `,
+            guildLinkDiscord: " https://discord.gg/JWVNntfN ",
+            guildServer: " Wild Growth",
+        },
     ],
     horde: [
         // {
