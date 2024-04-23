@@ -9,6 +9,10 @@ export default function Header() {
     const pathname = usePathname();
     return (
         <div className="flex-col flex items-center">
+            <p className="text-center">
+                По усім питанням щодо заповненя чи оновлення звертайтесь в
+                діскорді @rockinstar
+            </p>
             <Link
                 href="/"
                 className="flex-row flex w-full xl:w-[30rem] justify-center h-12 items-center  text-xl text-nowrap  text-center hover:bg-slate-600 rounded-lg"
