@@ -257,7 +257,7 @@ const era = {
             guildServer: "Stitches",
         },
         {
-            guildName: "Ukrainian Alliance",
+            guildName: "Ukrainian Alliance Hardcore",
             guildDescription: `Ukrainian Alliance`,
             guildLinkWlogs: `https://bit.ly/ua_guild`,
             guildLinkDiscord: "https://bit.ly/ua_guild",
@@ -290,50 +290,97 @@ const era = {
 };
 const retail = {
     alliance: [
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
+        {
+            guildName: "Ukrainian Alliance",
+            guildDescription: `"Гільдія поєднує в собі досить сильних рейдерів, гарне почуття гумору та здорову атмосферу спілкування. Відкриті для новачків, за мету мають закриття міфік рейду у кожному патчі (але не жертвуючи при цьому реальним життям).
+
+РТ: ср, чт та пн з 21.00 до 00.00"`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/terokkar/Ukrainian%20Alliance/`,
+            guildLinkDiscord: "https://bit.ly/ua_guild",
+            guildServer: " Terokkar",
+        },
+        {
+            guildName: "MRIYA",
+            guildDescription: `Досить потужна та велика українська гільдія на сервері Silvermoon, яка закриває героїк рейди та частково міфік.`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/silvermoon/MRIYA/`,
+            guildLinkDiscord: "https://discord.gg/sGE5yMWBCe",
+            guildServer: " Silvermoon",
+        },
+        {
+            guildName: "Ukraine",
+            guildDescription: ``,
+            guildLinkWlogs: `https://raider.io/guilds/eu/silvermoon/Ukraine`,
+            guildLinkDiscord: "https://discord.gg/MzkFzajnqq",
+            guildServer: " Silvermoon",
+        },
+        {
+            guildName: "Draenei Milfs",
+            guildDescription: `Альянсівський кластер гільдії Tauren Milfs`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/tarren-mill/Draenei%20Milfs`,
+            guildLinkDiscord: "https://bit.ly/Tauren_Milfs",
+            guildServer: " Tarren Mill",
+        },
+        {
+            guildName: "Komora",
+            guildDescription: `Альто-гільдія гільдії Knaipa Variativ`,
+            guildLinkWlogs: `/`,
+            guildLinkDiscord: "/",
+            guildServer: " Terokkar",
+        },
+        {
+            guildName: "BCECBIT",
+            guildDescription: `Гільдія створена однодумцями та з цілями на міфічний склад рейдингу та високих ключів 22-25 і вище`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/silvermoon/BCECBIT`,
+            guildLinkDiscord: "https://discord.gg/gMtTyXUh8E",
+            guildServer: " Silvermoon",
+        },
+        {
+            guildName: "The Toxic Avengers",
+            guildDescription: `Якщо когось цікавлять ключі, то ми - The Toxic Avengers - відкриті для нових людей. Критерій входу - руки, голова і вміння сприймати вайб нашого стрімера kishe4ka`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/tarren-mill/The%20Toxic%20Avengers`,
+            guildLinkDiscord: "/",
+            guildServer: " Tarren Mill",
+        },
+        {
+            guildName: "Khorugva",
+            guildDescription: ``,
+            guildLinkWlogs: `https://raider.io/guilds/eu/terokkar/Khorugva`,
+            guildLinkDiscord: "/",
+            guildServer: " Terokkar",
+        },
     ],
     horde: [
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
+        {
+            guildName: "Tauren Milfs",
+            guildDescription: `Найбільша та найдавніша українська гільдія Орди. Закриває героїк та міф рейди, має декілька рейд статиків, включно з нічним. Має активну ПВП спільноту та ~900 персонажів.`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/tarren-mill/Tauren%20Milfs/`,
+            guildLinkDiscord: "https://bit.ly/Tauren_Milfs",
+            guildServer: " Tarren Mill",
+        },
+        {
+            guildName: "Arey",
+            guildDescription: `"Кросфракційна, в минулому перша українська гільдія Орди на сервері Terokkar, залюбки запрошує до своїх лав представників Орди та Альянсу. 
+    Тут ви знайдете різноманітні активності: рейди всіх складностей актуальних та минулих доповнень , високі та малі ключі, цікаві івенти з файними призами. Майже цілодобовий онлайн. 
+Незалежно від того, ви шукаєте high контент, чи бажаєте просто відпочити у веселій компанії -в гільдії Arey вас підтримають, допоможуть та залюбки складуть вам компанію! 
+    Гільдія не толерує гру з РОСНЯВИМИ СЕРВЕРАМИ!!! Якщо це для вас теж важливо то Arey чекає вас!"`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/terokkar/Arey/`,
+            guildLinkDiscord: "https://discord.gg/BG8MVrAuk7",
+            guildServer: " Terokkar",
+        },
+        {
+            guildName: "Ukrainian Cossacks",
+            guildDescription: `Пориньте у нову пригоду з нашою українською гільдією у WoW! Будучи першою у своєму роді на сервері, ми прагнемо створити яскраву спільноту та досягти величі разом.`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/draenor/Ukrainian%20Cossacks`,
+            guildLinkDiscord: "https://bit.ly/ucossacks",
+            guildServer: " Draenor",
+        },
+        {
+            guildName: "MOROK",
+            guildDescription: `Гільдія була створення з метою об'єднання українських гравців на сервері Twisting Nether. Ми ще поки тільки починаємо, тому наразі наша ціль - знайти якомога більше бажаючих вступити в гільдію і грати разом.`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/twisting-nether/MOROK`,
+            guildLinkDiscord: "/",
+            guildServer: " Twisting Nether",
+        },
     ],
 };
 export default { cataclysm, era, retail, season };
