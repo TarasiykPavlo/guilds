@@ -249,50 +249,43 @@ const season = {
 };
 const era = {
     alliance: [
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
+        {
+            guildName: "Armed Forces of Ukraine Hardcore",
+            guildDescription: `(Пишіть @Afody [forced fun] )`,
+            guildLinkWlogs: `https://discord.gg/sGEJpNyhFd`,
+            guildLinkDiscord: "https://discord.gg/sGEJpNyhFd",
+            guildServer: "Stitches",
+        },
+        {
+            guildName: "Ukrainian Alliance",
+            guildDescription: `Ukrainian Alliance`,
+            guildLinkWlogs: `https://bit.ly/ua_guild`,
+            guildLinkDiscord: "https://bit.ly/ua_guild",
+            guildServer: " Nek'Rosh",
+        },
+        {
+            guildName: "СВІТАНОК Classic Era",
+            guildDescription: `Classic Era`,
+            guildLinkWlogs: `https://discord.gg/pqCFTGeqpx`,
+            guildLinkDiscord: "https://discord.gg/pqCFTGeqpx",
+            guildServer: " Firemaw ",
+        },
     ],
     horde: [
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
+        {
+            guildName: "Sichova Horde Classic Hardcore",
+            guildDescription: `(Пишіть @Afody [forced fun] ) `,
+            guildLinkWlogs: `https://discord.gg/473zmypdbN`,
+            guildLinkDiscord: "https://discord.gg/473zmypdbN",
+            guildServer: "Stitches",
+        },
+        {
+            guildName: "СТРАХ І СМЕРТЬ Classic Hardcore",
+            guildDescription: `СТРАХ І СМЕРТЬ`,
+            guildLinkWlogs: `/`,
+            guildLinkDiscord: "/",
+            guildServer: "Nek'Rosh",
+        },
     ],
 };
 const retail = {
