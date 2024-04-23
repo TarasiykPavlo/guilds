@@ -2,20 +2,25 @@ import Image from "next/image";
 import Link from "next/link";
 import discord from "../../../../public/discord-outline.svg";
 import wcl from "../../../../public/WCL.png";
-export default function GuildDescription() {
+export default function GuildDescription({ guild }) {
     return (
         <div className="flex w-full h-fit sm:space-x-10 flex-col-reverse sm:flex-row justify-center align-middle">
             <div className="flex flex-col justify-center items-center">
-                <h3>guildName</h3>
-                <p>
-                    guildDescription Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi sint reprehenderit sequi est aut
-                    aspernatur, nesciunt, quod ratione corrupti eveniet, minima similique eos necessitatibus dignissimos labore quasi
-                    excepturi delectus in.
-                </p>
+                {/* <h3 className="text-xl pb-2">{guild.guildName}</h3> */}
+                <div>
+                    {guild.guildDescription.split("\n").map((text, index) => (
+                        <p
+                            className="p-1"
+                            key={index}
+                        >
+                            {text}
+                        </p>
+                    ))}
+                </div>
             </div>
             <div className="flex flex-col space-y-3 items-center">
                 <Link
-                    href={"/"}
+                    href={guild.guildLinkWlogs}
                     className="h-[40px] w-[180px] bg-green-400 py-3 px-6  rounded-3xl text-center flex items-center hover:bg-green-200  space-x-3"
                 >
                     <Image
@@ -24,10 +29,10 @@ export default function GuildDescription() {
                         width={25}
                         height={25}
                     ></Image>
-                    <p>guildLinkWlogs</p>
+                    <p>Warcraftlogs</p>
                 </Link>
                 <Link
-                    href={"/"}
+                    href={guild.guildLinkDiscord}
                     className="h-[40px] bg-blue-400 py-3 px-6 w-[180px] rounded-3xl text-center items-center flex-row flex hover:bg-blue-200  space-x-3"
                 >
                     <Image
@@ -36,7 +41,7 @@ export default function GuildDescription() {
                         width={25}
                         height={25}
                     ></Image>
-                    <p>guildLinkDiscord</p>
+                    <p>Discord</p>
                 </Link>
             </div>
         </div>

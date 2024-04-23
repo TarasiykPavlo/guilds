@@ -1,23 +1,22 @@
 import { Collapse } from "antd";
 import GuildDescription from "@/app/ui/description/GuildDescription";
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
-const allianceGuilds = [
-    {
-        name: "test",
-    },
-];
+import cataclysm from "@/app/guildData";
 
-const items = [
-    {
-        key: "1",
-        label: "guild",
-        children: <GuildDescription />,
-    },
-];
+const items = cataclysm.map((guild, index) => ({
+    key: index,
+    label: (
+        <p className="space-x-4">
+            <span className="text-xl ">
+                {"<"}
+                {guild.guildName}
+                {`>`}
+            </span>
+            <span className="text-pink-800">{guild.guildServer}</span>
+        </p>
+    ),
+    children: <GuildDescription guild={guild} />,
+}));
+console.log(items);
 export default function BodyItem({ side }) {
     return (
         <div className="2xl:w-[80rem] w-full bg-slate-400 h-fit  flex flex-col rounded-lg">
