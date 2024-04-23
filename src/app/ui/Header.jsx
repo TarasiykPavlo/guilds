@@ -1,7 +1,12 @@
+"use client";
+
+import clsx from "clsx";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+    const pathname = usePathname();
     return (
         <div className="flex-col flex items-center">
             <Link
@@ -17,12 +22,17 @@ export default function Header() {
 
                 <h1>Українські гільдії World of Warcraft</h1>
             </Link>
-            <div className="flex gap-3 px-2">
+            <div className={"flex gap-3 px-2 "}>
                 <Link href={"/retail"}>
                     <Image
                         src={"/war-within.jpg"}
                         alt="retail"
-                        className="rounded-3xl"
+                        className={clsx(
+                            "rounded-3xl",
+                            pathname.includes("retail") === true
+                                ? "opacity-100"
+                                : "opacity-50"
+                        )}
                         width={250}
                         height={250}
                     />
@@ -33,7 +43,12 @@ export default function Header() {
                         alt="season"
                         width={250}
                         height={80}
-                        className="rounded-3xl"
+                        className={clsx(
+                            "rounded-3xl",
+                            pathname.includes("season") === true
+                                ? "opacity-100"
+                                : "opacity-50"
+                        )}
                     />
                 </Link>
                 <Link href={"/cataclysm"}>
@@ -42,7 +57,12 @@ export default function Header() {
                         alt="cataclysm"
                         width={250}
                         height={80}
-                        className="rounded-3xl"
+                        className={clsx(
+                            "rounded-3xl",
+                            pathname.includes("cataclysm") === true
+                                ? "opacity-100"
+                                : "opacity-50"
+                        )}
                     />
                 </Link>
                 <Link href={"/era"}>
@@ -51,7 +71,12 @@ export default function Header() {
                         alt="era"
                         width={213}
                         height={80}
-                        className="rounded-3xl"
+                        className={clsx(
+                            "rounded-3xl",
+                            pathname.includes("era") === true
+                                ? "opacity-100"
+                                : "opacity-50"
+                        )}
                     />
                 </Link>
             </div>
