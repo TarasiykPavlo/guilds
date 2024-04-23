@@ -32,7 +32,7 @@ const cataclysm = {
         },
         {
             guildName: "Sich",
-            guildDescription: `Два рейди на 25 осіб протягом тижня
+            guildDescription: `1 рейди на 25 осіб протягом тижня
             Базова українська гільдія класичного світу WoTLK на стороні Альянсу. 1 рейди на 25 осіб протягом тижня. Відкрита до нових гравців.`,
             guildLinkWlogs: `https://classic.warcraftlogs.com/guild/eu/pyrewood-village/sich`,
             guildLinkDiscord: "https://discord.com/invite/r4CV3NkpE7",
