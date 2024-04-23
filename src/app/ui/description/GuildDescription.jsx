@@ -4,7 +4,7 @@ import discord from "../../../../public/discord-outline.svg";
 import wcl from "../../../../public/WCL.png";
 export default function GuildDescription({ guild }) {
     return (
-        <div className="flex w-full h-fit sm:space-x-10 flex-col-reverse sm:flex-row justify-center align-middle">
+        <div className="flex w-full h-fit sm:space-x-10 flex-col-reverse sm:flex-row justify-between align-middle">
             <div className="flex flex-col justify-center items-center">
                 {/* <h3 className="text-xl pb-2">{guild.guildName}</h3> */}
                 <div>
