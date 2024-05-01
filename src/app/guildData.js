@@ -180,11 +180,11 @@ const season = {
             guildServer: " Crusader Strike",
         },
         {
-            guildName: "KRAKEN",
-            guildDescription: `KRAKEN`,
+            guildName: "K R A K E N",
+            guildDescription: `K R A K E N`,
             guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/chaos-bolt/kraken`,
             guildLinkDiscord: "https://discord.gg/WzXZPqTf",
-            guildServer: "Chaos Bolt",
+            guildServer: "Wild Growth",
         },
         {
             guildName: "We love cookies",
@@ -320,13 +320,13 @@ const retail = {
             guildLinkDiscord: "https://bit.ly/Tauren_Milfs",
             guildServer: " Tarren Mill",
         },
-        {
-            guildName: "Komora",
-            guildDescription: `Альто-гільдія гільдії Knaipa Variativ`,
-            guildLinkWlogs: `/`,
-            guildLinkDiscord: "/",
-            guildServer: " Terokkar",
-        },
+        // {
+        //     guildName: "Komora",
+        //     guildDescription: `Альто-гільдія гільдії Knaipa Variativ`,
+        //     guildLinkWlogs: `/`,
+        //     guildLinkDiscord: "/",
+        //     guildServer: " Terokkar",
+        // },
         {
             guildName: "BCECBIT",
             guildDescription: `Гільдія створена однодумцями та з цілями на міфічний склад рейдингу та високих ключів 22-25 і вище`,
