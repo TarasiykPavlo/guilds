@@ -44,13 +44,13 @@ const cataclysm = {
             guildLinkDiscord: "https://discord.gg/JMuw5rJW39",
             guildServer: " Firemaw",
         },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
+        {
+            guildName: "Shadows of the Ancestors",
+            guildDescription: `Ми українське ком'юніті сформоване на початку 2022р на сервері Earthshaker (альйанс) на вимушено переїхали на Firemaw запрошуємо всіх бажаючих доєднатися до нас для підкорення контенту КАТАКЛІЗМУ.\nТрішки про нас - відрейдили ЛК контент, прогрес ви можете побачити на Warcraftlogs. Доукомплектовуємо на зараз статік 25PPL та розглядаємо розвиток двох-трьох статиків 10 PPL.\n В першу чергу зацікавлені в стабільних гравцях на таких класах \n -Пріст (ШП, ДЦ);\n -ДК (Анхолі);\n -Розбійник (любий спек);\n -Танки та хіли - завжди потрібні, але досить сильна конкуренція за місця.\nГрафік рейдів: плануються 2 дні РТ, однозначно середа 20:00 та додатковий день (поки не визначений).\nЗв'язатися з Нами можливо через Діскорд, безпосередьно написавши онлайн гравцям чи мені в особисті повідомлення діскорду - Sobimaru.`,
+            guildLinkWlogs: "https://classic.warcraftlogs.com/guild/id/671782",
+            guildLinkDiscord: "https://discord.gg/BqFu2qYuHv",
+            guildServer: "Firemaw",
+        },
         // {
         //     guildName: "test",
         //     guildDescription: `test`,
