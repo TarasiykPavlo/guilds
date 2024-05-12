@@ -324,11 +324,14 @@ const retail = {
             guildServer: " Tarren Mill",
         },
         // {
-        //     guildName: "Komora",
-        //     guildDescription: `Альто-гільдія гільдії Knaipa Variativ`,
-        //     guildLinkWlogs: `/`,
-        //     guildLinkDiscord: "/",
-        //     guildServer: " Terokkar",
+        //     guildName: "Nomads TM",
+        //     guildDescription: `Ми шукаємо нових гравців як в один з статиків так і просто однодумців.
+        // 3 РТ на тиждень: Середа, Четвер та Понеділок 21:00 - 00:00 по Києву
+
+        // На даний момент статік Serenity рейдить в напів хардкорному режимі і шукає нових гравців для поповнення складу. Особлива увага до хілів та дд (навіть якщо це твій офспек, дай йому шанс), але не відмовимося і від танків!`,
+        //     guildLinkWlogs: `https://raider.io/guilds/eu/tarren-mill/Nomads%20TM`,
+        //     guildLinkDiscord: "https://discord.com/invite/AjtMFHAyGf",
+        //     guildServer: " Tarren Mill",
         // },
         {
             guildName: "BCECBIT",
@@ -383,6 +386,16 @@ const retail = {
             guildLinkWlogs: `https://raider.io/guilds/eu/twisting-nether/MOROK`,
             guildLinkDiscord: "/",
             guildServer: " Twisting Nether",
+        },
+        {
+            guildName: "Nomads TM",
+            guildDescription: `Ми шукаємо нових гравців як в один з статиків так і просто однодумців.
+        3 РТ на тиждень: Середа, Четвер та Понеділок 21:00 - 00:00 по Києву
+
+        На даний момент статік Serenity рейдить в напів хардкорному режимі і шукає нових гравців для поповнення складу. Особлива увага до хілів та дд (навіть якщо це твій офспек, дай йому шанс), але не відмовимося і від танків!`,
+            guildLinkWlogs: `https://raider.io/guilds/eu/tarren-mill/Nomads%20TM`,
+            guildLinkDiscord: "https://discord.com/invite/AjtMFHAyGf",
+            guildServer: " Tarren Mill",
         },
     ],
 };
