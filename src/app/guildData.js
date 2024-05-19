@@ -16,7 +16,7 @@ const cataclysm = {
 
 Маємо плани на КАТАКЛІЗМ продовжувати грати та розширюватись . Активно набираємо людей і проводимо івенти.`,
             guildLinkWlogs: `https://classic.warcraftlogs.com/guild/calendar/712060`,
-            guildLinkDiscord: "https://discord.com/invite/RSQF82DtWp",
+            guildLinkDiscord: "https://discord.gg/Dw8PbYyV5s",
             guildServer: "Pyrewood Village",
         },
         {
