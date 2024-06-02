@@ -51,13 +51,13 @@ const cataclysm = {
             guildLinkDiscord: "https://discord.gg/BqFu2qYuHv",
             guildServer: "Firemaw",
         },
-        // {
-        //     guildName: "test",
-        //     guildDescription: `test`,
-        //     guildLinkWlogs: `test`,
-        //     guildLinkDiscord: "test",
-        //     guildServer: " guildServer",
-        // },
+        {
+            guildName: "Ukrainian Alliance",
+            guildDescription: `Маємо цілі закрити фул гер епізодично , Граємо на фул чілі`,
+            guildLinkWlogs: `https://bit.ly/ua_guild`,
+            guildLinkDiscord: "https://bit.ly/ua_guild",
+            guildServer: " Firemaw",
+        },
         // {
         //     guildName: "test",
         //     guildDescription: `test`,
