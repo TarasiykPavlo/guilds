@@ -112,15 +112,15 @@ const cataclysm = {
             guildLinkDiscord: "https://discord.gg/ZwX5ubtfY9",
             guildServer: " Golemagg",
         },
-        {
-            guildName: "ATB",
-            guildDescription: `Затишна гільдія, в якій знайдеться місце як в міру токсичним ноулайферам, так і новачкам. Граємо на Season of Discovery та Катаклізмі
+        //         {
+        //             guildName: "ATB",
+        //             guildDescription: `Затишна гільдія, в якій знайдеться місце як в міру токсичним ноулайферам, так і новачкам. Граємо на Season of Discovery та Катаклізмі
 
-Для запрошення можете писати будь кому в грі з /who g-"ATB"`,
-            guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/lone-wolf/atb`,
-            guildLinkDiscord: "https://discord.gg/z8pPAqKqmr",
-            guildServer: "Gehennas",
-        },
+        // Для запрошення можете писати будь кому в грі з /who g-"ATB"`,
+        //             guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/lone-wolf/atb`,
+        //             guildLinkDiscord: "https://discord.gg/z8pPAqKqmr",
+        //             guildServer: "Gehennas",
+        //         },
         // {
         //     guildName: "test",
         //     guildDescription: `test`,
@@ -228,12 +228,11 @@ const season = {
         },
         {
             guildName: "ATB",
-            guildDescription: `Затишна гільдія, в якій знайдеться місце як в міру токсичним ноулайферам, так і новачкам. Граємо на Season of Discovery та Катаклізмі
-
+            guildDescription: `Затишна гільдія, в якій знайдеться місце як в міру токсичним ноулайферам, так і новачкам. 
 Для запрошення можете писати будь кому в грі з /who g-"ATB"`,
             guildLinkWlogs: `https://sod.warcraftlogs.com/guild/eu/lone-wolf/atb`,
             guildLinkDiscord: "https://discord.gg/z8pPAqKqmr",
-            guildServer: "Lone Wolf",
+            guildServer: "Living Flame",
         },
         {
             guildName: " Salo",
