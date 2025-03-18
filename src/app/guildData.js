@@ -274,6 +274,13 @@ const era = {
       guildServer: " Firemaw ",
     },
     {
+      guildName: "СВІТАНОК Anniversary Classic",
+      guildDescription: `Anniversary Classic`,
+      guildLinkWlogs: `https://fresh.warcraftlogs.com/guild/id/773962/`,
+      guildLinkDiscord: "https://discord.gg/EzAnbmgC",
+      guildServer: " Spineshatter-EU",
+    },
+    {
       guildName: "Piana Vyshnia Anniversary Classic ",
       guildDescription: `Гільдія "Piana Vyshnia" - українська ПВЕ-гільдія.
 Фракція: Альянс
