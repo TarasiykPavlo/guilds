@@ -286,7 +286,7 @@ const era = {
 Фракція: Альянс
 Сервер: Spineshatter-EU
 Рейдтайм: неділя RT 21:00, інвайти в 20:30
-Система луту: SR:MS>OS
+Система луту: У нас тепер ДКП+дікей+бонус новачкам
 
 Гільдія позіціонується як вільномовне ком'юніті для українців: зібратись разом і грати без їбаної русні.
 Основний костяк - вже зіграні люди з декількох об'єднаних гільдій. 
@@ -353,6 +353,15 @@ const retail = {
       guildLinkWlogs: `https://raider.io/guilds/eu/tarren-mill/Draenei%20Milfs`,
       guildLinkDiscord: "https://bit.ly/Tauren_Milfs",
       guildServer: " Tarren Mill",
+    },
+    {
+      guildName: "Dark Green",
+      guildDescription:
+        "Семі-казуальна гільдія Dark Green. 2 статіка гер в середу, 1 міф статік, 2 статік на стадії формування",
+      guildLinkWlogs:
+        "https://www.warcraftlogs.com/guild/eu/silvermoon/dark%20green",
+      guildLinkDiscord: "https://discord.gg/jjYXvjGF2z",
+      guildServer: " Silvermoon",
     },
     // {
     //     guildName: "Nomads TM",
