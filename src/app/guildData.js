@@ -104,13 +104,13 @@ const cataclysm = {
       guildLinkDiscord: "https://discord.gg/SPr3nTVqtd",
       guildServer: " Gehennas",
     },
-    {
-      guildName: "Send Dudes",
-      guildDescription: `Проводим набір PvP/PvE та просто казуальних гравців, для закриття актуального контенту в ICC `,
-      guildLinkWlogs: `https://classic.warcraftlogs.com/guild/eu/golemagg/send%20dudes`,
-      guildLinkDiscord: "https://discord.gg/ZwX5ubtfY9",
-      guildServer: " Golemagg",
-    },
+    // {
+    //   guildName: "Send Dudes",
+    //   guildDescription: `Проводим набір PvP/PvE та просто казуальних гравців, для закриття актуального контенту в ICC `,
+    //   guildLinkWlogs: `https://classic.warcraftlogs.com/guild/eu/golemagg/send%20dudes`,
+    //   guildLinkDiscord: "https://discord.gg/ZwX5ubtfY9",
+    //   guildServer: " Golemagg",
+    // },
     //         {
     //             guildName: "ATB",
     //             guildDescription: `Затишна гільдія, в якій знайдеться місце як в міру токсичним ноулайферам, так і новачкам. Граємо на Season of Discovery та Катаклізмі
@@ -311,6 +311,13 @@ const era = {
       guildLinkWlogs: `https://discord.gg/473zmypdbN`,
       guildLinkDiscord: "https://discord.gg/473zmypdbN",
       guildServer: "Stitches",
+    },
+    {
+      guildName: "LiberalPug Classic Hardcore",
+      guildDescription: `LiberalPug`,
+      guildLinkWlogs: `https://discord.gg/283yXSttmw`,
+      guildLinkDiscord: "https://discord.gg/283yXSttmw",
+      guildServer: "Spineshatter",
     },
     {
       guildName: "СТРАХ І СМЕРТЬ Classic Hardcore",
