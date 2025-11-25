@@ -325,7 +325,7 @@ const era = {
       guildDescription: `Наша мета: закривати рейдовий контент в українському колективі, де кожен відповідально ставиться до рейду та особистого перфомансу. 
 
 Приєднуйся до нас – відчуй силу колючок!`,
-      guildLinkWlogs: `https://discord.com/invite/TwHKbACjVV`,
+      guildLinkWlogs: `https://fresh.warcraftlogs.com/guild/id/802735`,
       guildLinkDiscord: "https://discord.com/invite/TwHKbACjVV",
       guildServer: "Spineshatter",
     },
