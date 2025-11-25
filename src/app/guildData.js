@@ -320,7 +320,8 @@ const era = {
       guildServer: "Spineshatter",
     },
     {
-      guildName: "TBC Aniversary Spineshatter Horde",
+      guildName:
+        "< Їzhachok > - українська PvE-гільдія - TBC Aniversary Spineshatter Horde",
       guildDescription: `Наша мета: закривати рейдовий контент в українському колективі, де кожен відповідально ставиться до рейду та особистого перфомансу. 
 
 Приєднуйся до нас – відчуй силу колючок!`,
