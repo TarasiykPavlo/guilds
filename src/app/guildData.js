@@ -320,6 +320,15 @@ const era = {
       guildServer: "Spineshatter",
     },
     {
+      guildName: "TBC Aniversary Spineshatter Horde",
+      guildDescription: `Наша мета: закривати рейдовий контент в українському колективі, де кожен відповідально ставиться до рейду та особистого перфомансу. 
+
+Приєднуйся до нас – відчуй силу колючок!`,
+      guildLinkWlogs: `https://discord.com/invite/TwHKbACjVV`,
+      guildLinkDiscord: "https://discord.com/invite/TwHKbACjVV",
+      guildServer: "Spineshatter",
+    },
+    {
       guildName: "СТРАХ І СМЕРТЬ Classic Hardcore",
       guildDescription: `СТРАХ І СМЕРТЬ`,
       guildLinkWlogs: `/`,
